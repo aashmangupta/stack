@@ -10,12 +10,12 @@
 
 typedef struct stack STACK;
 
-extern STACK *newSTACK();
-//extern void push(STACK *items, void* value);
-//extern void pop(STACK *items);
-//extern void *peekSTACK(STACK *items);
-//extern int sizeSTACK(STACK *items);
-//extern void printSTACK(STACK *items);
+extern STACK *newSTACK();                       //Constructor
+extern void push(STACK *items, void *value);    //Add value to top
+extern void pop(STACK *items);                  //Remove value on top
+extern void *peekSTACK(STACK *items);           //Print value on the top
+extern int sizeSTACK(STACK *items);             //Print size of stack
+extern void printSTACK(STACK *items);           //Print all of stack
 
 
 #endif

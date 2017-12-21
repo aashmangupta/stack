@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe806c7a-2b75-424c-8d66-887d23a1d5fd" name="Default" comment="">
+    <list default="true" id="fe806c7a-2b75-424c-8d66-887d23a1d5fd" name="Default" comment="commited">
       <change beforePath="" afterPath="$USER_HOME$/.CFUserTextEncoding" />
       <change beforePath="" afterPath="$USER_HOME$/.Trash/Assignment 0/.idea/codeStyles/Project.xml" />
       <change beforePath="" afterPath="$USER_HOME$/.Trash/Assignment 0/.idea/misc.xml" />
@@ -10974,6 +10974,7 @@
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/feature.usage.statistics.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/git.xml" />
+      <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/github_settings.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/images.support.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/keymap.xml" />
       <change beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/laf.xml" />
@@ -11041,7 +11042,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stack.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stack.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stack.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -11051,11 +11052,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stack.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stack.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stack.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="68" lean-forward="false" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
               <folding>
                 <element signature="e#97#115#0" expanded="true" />
               </folding>
@@ -11072,8 +11073,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.c" />
-        <option value="$PROJECT_DIR$/stack.h" />
         <option value="$PROJECT_DIR$/stack.c" />
+        <option value="$PROJECT_DIR$/stack.h" />
       </list>
     </option>
   </component>
@@ -11087,7 +11088,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -11117,7 +11120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -11159,12 +11162,12 @@
       <updated>1513738507909</updated>
       <workItem from="1513738509331" duration="741000" />
       <workItem from="1513819668278" duration="246000" />
-      <workItem from="1513820346972" duration="372000" />
+      <workItem from="1513820346972" duration="1259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1359000" />
+    <option name="totallyTimeSpent" value="2246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -11195,6 +11198,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="commited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -11238,21 +11245,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stack.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="68" lean-forward="false" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <element signature="e#97#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
