@@ -1,7 +1,8 @@
 //
 // Created by Aashman Gupta on 12/19/17.
 //
-#include 
+#include "stack.h"
+
 struct stack{
     void* value;
     int top;
@@ -9,9 +10,9 @@ struct stack{
 };
 
 STACK *newSTACK(){
-    STACK *items = malloc((void*) * sizeof(STACK));
+    STACK *items = malloc(1 * sizeof(STACK));
     items->value = NULL;
     items->top = 0;
-    items->size = 0;
+    items->capacity = 0;
     return items;
 }

@@ -3,4 +3,5 @@
 
 CMakeFiles/myStack.dir/main.c.o: ../main.c
 CMakeFiles/myStack.dir/main.c.o: ../stack.c
+CMakeFiles/myStack.dir/main.c.o: ../stack.h
 

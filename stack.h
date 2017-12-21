@@ -18,4 +18,4 @@ extern STACK *newSTACK();
 //extern void printSTACK(STACK *items);
 
 
-#endif //MYSTACK_STACK_H
+#endif
